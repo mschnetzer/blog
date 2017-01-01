@@ -1,0 +1,42 @@
++++
+title = "Generationengerechtigkeit mit falschem Fokus"
+date = "2016-03-29"
+origlink = "http://blog.arbeit-wirtschaft.at/generationengerechtigkeit-mit-falschem-fokus/"
+tags = ["Erbschaftssteuer","Sozialstaat","Gerechtigkeit","Vermögensverteilung","Mobilität"]
+categories = ["Verteilung"]
++++
+
+Im Laufe der wiederkehrenden Diskussionen über tiefgreifende Reformen des Pensionssystems fällt immer wieder der Begriff Generationengerechtigkeit. Die Debatte schafft bei jungen Menschen große Verunsicherung, denn der Grundtenor lautet, dass nur drastische Einschnitte im Pensionswesen die soziale Absicherung zukünftiger Generationen gewährleisten können. [Generationengerechtigkeit wird dabei als Kampf zwischen Alt und Jung inszeniert](http://blog.arbeit-wirtschaft.at/generationengerechtigkeit/), dabei ist sie eine Frage der Verteilung des Reichtums in unserer Gesellschaft.
+<!--more-->
+
+Von den aktuellen Kürzungsdebatten im Sozialwesen, die in Folge der Finanz- und Wirtschaftskrise spürbar an Intensität gewonnen haben, profitiert vor allem eine Gruppe: die Reichsten der Gesellschaft. Denn sie stehen nun nicht mehr im Rampenlicht, nachdem sie in den vergangenen Jahren [mehrfach im Fokus steuerpolitischer Vorschläge](http://blog.arbeit-wirtschaft.at/piketty-warum-eine-globale-vermoegenssteuer-hilft-die-ungleichheit-zu-verringern/) zur Finanzierung wichtiger Investitionen für zukünftige Generationen waren. Von großen Einschnitten wie Erbschafts- und Vermögenssteuern blieben sie bislang verschont, und langsam schwindet auch die drastische Ungleichheit mit all ihren Begleiterscheinungen aus der öffentlichen Wahrnehmung. Dabei könnte man mit einem gerechten Beitrag der Vermögendsten der Unsicherheit über die zukünftige Finanzierbarkeit wohlfahrtsstaatlicher Leistungen den Wind aus den Segeln nehmen.
+
+### Vermögenskonzentration hemmt Chancengleichheit
+
+Vermögensungleichheit und Generationengerechtigkeit sind eng miteinander verwoben. Das ergibt sich einerseits aus der trivialen Erkenntnis, dass die Vermögenskonzentration von heute – zur Erinnerung: [das reichste 1% der Haushalte besitzt 37% des Nettovermögens](http://blog.arbeit-wirtschaft.at/unterschatzung-der-vermogensungleichheit-durch-untererfassung-der-reichsten-haushalte/) – die Chancengleichheit der nächsten Generation erheblich hemmt. Zahlreiche Studien zeigen, dass Bildung, berufliche Aussichten und Einkommen auch in Österreich stark [vom finanziellen Familienhintergrund abhängen](http://tinyurl.com/oeks25d). Andererseits werfen direkte und sehr ungleich verteilte Vermögensübertragungen von einer Generation an die andere die Frage nach Gerechtigkeit auf.
+
+Wie meine Kollegen und ich [in einer aktuellen Studie](http://epub.wu.ac.at/4841/) berechnet haben, müsste ein Haushalt ohne Erbschaft in Österreich auf der Einkommensleiter die Hälfte aller Haushalte überspringen, um mit seinem Arbeitseinkommen eine durchschnittliche Erbschaft ausgleichen zu können. Oder anders ausgedrückt: mit Arbeit können junge Menschen die Erben größerer Vermögen nicht mehr einholen. Nicht zuletzt deshalb zeigen unsere Forschungsergebnisse, dass Erben-Haushalte aus Österreich auch überdurchschnittlich oft im reichsten 1% der gesamten Eurozone zu finden sind.
+
+Die folgenden Abbildungen zur Zusammensetzung des reichsten 1% in der Eurozone verdeutlichen dies. Der Bevölkerungsanteil der einzelnen Länder im obersten Prozent wird durch die schwarzen Balken angezeigt. Der tatsächliche Anteil der Haushalte aus den verschiedenen Ländern ist durch die grauen Balken gekennzeichnet. Die Daten zeigen klar: Es sind deutlich mehr österreichische, belgische und deutsche Haushalte im Top 1%, als rein durch den Bevölkerungsanteil vermutet würde. Hingegen sind spanische, griechische oder auch niederländische Haushalte in der Vermögensspitze unterrepräsentiert (die Daten wurden um Unterschiede in den Haushaltszusammensetzungen zwischen den Ländern korrigiert).
+
+#### Statistischer und tatsächlicher Bevölkerungsanteil im Top 1%
+<center><img src="/img/blog/erbschaften.jpg" style="width: 700px;"></center>
+Quelle: HFCS 2010, eigene Berechnungen
+
+Die folgende Abbildung bietet einen genaueren Einblick. Die Sterne zeigen das Verhältnis zwischen dem Bevölkerungsanteil und dem tatsächlichen Anteil eines Landes im Top 1% an. Wenn die beiden Balken in der vorigen Abbildung, wie z.B. bei Frankreich, gleich hoch sind, dann ist der Stern genau bei 1. Österreichische Haushalte sind also doppelt so oft im reichsten Perzentil wie ihr Bevölkerungsanteil andeuten würde. Teilt man die Haushalte in Erben und Nicht-Erben auf, sind vorrangig Erben-Haushalte (grüne Dreiecke) deutlich überrepräsentiert.
+
+#### Auswirkungen von Erbschaften auf die Zugehörigkeit zum Top 1%
+<center><img src="/img/blog/erbvseink.jpg" style="width: 700px;"></center>
+Quelle: HFCS 2010, eigene Berechnungen
+
+Die Vererbung von Ungleichheit über Generationen hinweg führt zu einer fortschreitenden Verschärfung der Vermögenskonzentration, einer Verringerung von Chancengleichheit, ungleicher Abhängigkeit von den Leistungen des Wohlfahrtsstaates und zuletzt gefährdet sie auf lange Sicht auch die Demokratie und den gesellschaftlichen Zusammenhalt. Dass die Ungleichheit in Österreich – wie in den meisten Industriestaaten – steigt, ist mittlerweile unumstritten. Die [OECD warnt vor einer gesellschaftlichen Polarisierung](http://blog.arbeit-wirtschaft.at/oecd-steigende-ungleichheit-warum-eine-trendumkehr-notwendig-ist/) und sozialen Spannungen, weil die unteren 40% der Einkommensverteilung sukzessive abgehängt werden.
+
+### Ungleichheit wieder ins Blickfeld rücken
+
+Die Entkopplung des obersten Verteilungsrands und das Zurückbleiben weiter Bevölkerungsteile erfordern konsequente politische Gegenmaßnahmen. Auf Basis der wissenschaftlichen Erkenntnisse von Piketty & Co gilt es klar zu sagen, dass eine Steuer auf sehr große Vermögen, die nur einen kleinen Teil der Erträge abschöpft, die Vermögensverhältnisse nicht nachhaltig verändert. Dass eine Steuersenkungspolitik für Spitzeneinkommen, Top-Vermögen und große Konzerne [keinen Trickle-Down-Effekt](http://blog.arbeit-wirtschaft.at/schadet-eine-ungleiche-einkommensverteilung-der-wirtschaft/) durch Wirtschaftswachstum und Arbeitsplatzschaffung auslöst, sondern im Gegenteil die Finanzierung des Wohlfahrtsstaates untergräbt. Dass Erbschaften nicht nur äußerst ungleich verteilt sind, sondern ohne wesentliche Besteuerung gesellschaftliche Verhältnisse über Generationen einzementieren und Chancengleichheit für kommende Generationen aushebeln. Dass angehäufter Reichtum nicht neutral ist, sondern seinen BesitzerInnen wirtschaftliche und politische Gestaltungsspielräume schafft.
+
+Solche Einflussmöglichkeiten variieren in ihrer Form von Lobbying-Aktivitäten bis hin zur [Finanzierung von interessensgeleiteten Denkfabriken](http://blog.arbeit-wirtschaft.at/neoliberale-think-tanks-in-oesterreich-was-wollen-sie-was-bewirken-sie/). Es ist augenscheinlich, dass der politische Einfluss gezielt dazu eingesetzt wird, den Reichtum einiger Weniger abzusichern, Umverteilungsmaßnahmen zu blockieren und den politischen Diskurs in eine für sie vorteilhaftere Richtung zu lenken – auch auf Kosten zukünftiger Generationen. Der deutsche Soziologe Sighard Neckel warnt in diesem Zusammenhang vor einer [„Refeudalisierung“ sozialer Ungleichheit](http://www.taz.de/Soziologe-ueber-Finanzkapitalismus/!5097985/), bei der die Vereinigung von wirtschaftlicher und politischer Macht an vormoderne Klassenbildung erinnert. Der britische Politikwissenschaftler Colin Crouch mahnt vor einem Rückfall in vordemokratische Zeiten, wenn durch die Konzentration von Vermögen private Interessen die Institutionen des Gemeinwesens bestimmen.
+
+### Fazit
+
+Es ist somit eine berechtigte Sorge von jungen Menschen, dass sie im Vergleich zu ihren Eltern einen geringeren Lebensstandard haben werden, weil sie nicht auf große Erbschaften hoffen können und gleichzeitig scharfe Angriffe auf die Grundpfeiler des Wohlfahrtsstaates erleben. Ein gut ausgebautes Sozialwesen ist in unterschiedlichen Lebensphasen ein wichtiger Sicherheitsanker und ermöglicht die gesellschaftliche Teilhabe für alle Menschen. Um eine Refeudalisierung sozialer Verhältnisse zu verhindern, muss den durch falsch verstandene Generationengerechtigkeit angeheizten Kürzungsdebatten eine Verteilungspolitik im Sinne heutiger und zukünftiger Generationen entgegengestellt werden.

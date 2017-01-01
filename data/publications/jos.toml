@@ -1,0 +1,10 @@
+modalID= 3
+title= "Register-based data"
+papertitle= "Quality Assessment of Imputations in Administrative Data"
+coauth= "Franz Astleithner, Predrag Cetkovic, Stefan Humer, Manuela Lenk und Mathias Moser"
+date= "2015"
+img= "jos.jpg"
+preview= "jos.jpg"
+journal= "Journal of Official Statistics"
+doi= "http://dx.doi.org/10.1515/JOS-2015-0015"
+description= "This article contributes a framework for the quality assessment of imputations within a broader structure to evaluate the quality of register-based data. Four quality-related hyperdimensions examine the data processing from the raw-data level to the final statistics. Our focus lies on the quality assessment of different imputation steps and their influence on overall data quality. We suggest classification rates as a measure of accuracy of imputation and derive several computational approaches."

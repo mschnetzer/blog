@@ -1,0 +1,225 @@
+# Site settings
+languageCode = "de-DE"
+title = "matthias schnetzer"
+theme = "hugo-agency-theme"
+
+[params]
+  # You can use Markdown syntax for urls [text](//url.to/source) or
+  # most longer texts.
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # To provide some metadata for search engines feel free to add a few
+  # information about you and your website.
+  name = "Matthias Schnetzer"
+  # description = ""
+
+  # Link custom assets relative to /static
+  custom_css = []
+  custom_js  = []
+  # favicon    = "favicon.ico"
+
+  # Possibility to disable external/additional fonts
+  # Exception: Fontawesome
+  disableFonts = false
+
+  # 404 error customization
+  [params.error404]
+    heading = "Page couldn't be found"
+    text = "Please visit [this page](/)"
+
+  # Navigation
+  [params.navigation]
+    brand = "matthias schnetzer"
+    # Optional logo as brand stored in img/
+    # logo = "logos/aetuts.jpg"
+    posts = "Blog"
+    portfolio = "Publikationen"
+    about = "Über mich"
+    services = "Kontakt"
+    team = "Team"
+    contact = "Contact"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+    # postpended links
+    # [[menu.postpend]]
+    #  url = "http://wien.arbeiterkammer.at"
+    #  name = "@akwien"
+    #  weight = 10
+
+
+  # Hero section
+  [params.hero]
+    # To change the background image of the hero, replace 'header-bg.jpg' in
+    # the 'static/img' folder.
+    title = "political &middot; economist"
+    subtitle = "think lateral"
+    buttonText = "Weiterlesen"
+
+
+  # Services section
+  [params.services]
+    enable = true
+    title = "Kontakt"
+    # subtitle = "Lorem ipsum dolor sit amet consectetur."
+
+    [[params.services.row]]
+
+    [[params.services.row.list]]
+      icon = "fa-envelope"
+      title = "E-Commerce"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-gitlab"
+      title = "Responsive Design"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-github"
+      title = "Web"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      url = "#"
+
+  # Blogs section
+  [params.posts]
+    enable = true
+    title = "Blogbeiträge"
+
+  # Portfolio section
+  [params.portfolio]
+    enable = true
+    # All projects defined in their own files. You can find example projects
+    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+    # at the root of this Hugo site.
+    # For more informtion take a look at the README.
+    title = "Publikationen"
+    # subtitle = "A selection of my work"
+
+    [params.portfolio.modal]
+      journal = "Publiziert in"
+      date = "Veröffentlicht"
+      category = "Kategorie"
+      buttonText = "Projekt schließen"
+
+
+    # About section
+  [params.about]
+    enable = true
+    title = "Über mich"
+    # subtitle = "Lorem ipsum dolor sit amet consectetur."
+    endpointshow = false
+    endpoint = "More to<br>come in<br>2017"
+
+    # The events will be listed from the top to the bottom.
+    # All images are stored under 'static/img/about'.
+    # Replace them with your own.
+    [[params.about.events]]
+      img = "ak.jpg"
+      date = "seit 2013"
+      title = "Ökonom, Arbeiterkammer Wien"
+      description = "Abteilung Wirtschaftswissenschaften und Statistik, Referent für Verteilungsfragen"
+
+    [[params.about.events]]
+      img = "wu.png"
+      date = "seit 2013"
+      title = "Lektor, Wirtschaftsuniversität Wien"
+      description = "Institut für Makroökonomie, Lehrveranstaltungen zu Wirtschaftspolitik und politischer Ökonomie"
+
+    [[params.about.events]]
+      img = "bmask.jpg"
+      date = "2015"
+      title = "Anerkennungspreis, Sozialministerium"
+      description = "Wissenschaftspreis des Bundesministeriums für Soziales, Arbeit und Konsumentenschutz für Jungakademiker, Würdigung der Dissertation"
+
+    [[params.about.events]]
+      img = "matzner.jpg"
+      date = "2016"
+      title = "Egon-Matzner-Preis für Sozioökonomie"
+      description = "Preis des Instituts für Finanzwissenschaft und Infrastrukturpolitik an der TU Wien für einen Beitrag zu Vermögenskonzentration und Machtgefälle"
+
+  [[params.about.events]]
+      img = "rothschild.jpg"
+      date = "2016"
+      title = "Kurt-Rothschild-Preis für Wirtschaftspublizstik"
+      description = "Preis des Renner-Instituts und des SPÖ-Parlamentsklubs für einen Beitrag zur Rolle von Erbschaften beim Vermögensaufbau"
+
+
+  # Team section
+  [params.team]
+    enable = false
+    # Possibility to center items
+    #center = true
+    title = "Our amazing team"
+    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+
+    # All team member's pictures are stored under 'static/img/team'.
+    # Replace them with your own too.
+    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    [[params.team.members]]
+      img = "1.jpg"
+      name = "Kay Garland"
+      position = "Lead Designer"
+      reportsTo = "CTO"
+      livesIn = "[Munich, Germany](#some-maps-url)"
+      scope = [
+        "UX for [member dashboard](#)",
+        "Maintainer for [awesome-project](#)",
+        "Open Source [community management](#)"
+      ]
+      # For bio markdown and even multiline strings are available.
+      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
+She worked at Pied Piper for years until they went belly up."""
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.team.members]]
+      img = "2.jpg"
+      name = "Larry Parker"
+      position = "Lead Marketer"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.team.members]]
+      img = "3.jpg"
+      name = "Diana Pertersen"
+      position = "Lead Developer"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = "erstellt mit [Hugo](http://gohugo.io) &middot; Titelfoto dankend von [Phirue](http://philippruemmele.com)"
+
+    # [[params.footer.social]]
+    #  icon = "fa-twitter"
+    #  link = "http://www.twitter.com"
+
+    # [[params.footer.social]]
+    #  icon = "fa-facebook"
+    #  link = "http://www.facebook.com"
