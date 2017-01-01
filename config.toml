@@ -2,7 +2,8 @@
 languageCode = "de-DE"
 title = "matthias schnetzer"
 theme = "hugo-agency-theme"
-baseURL = "http://smanull.github.io/"
+baseURL = "https://smanull.github.io/"
+canonifyURLs = "true"
 
 [params]
   # You can use Markdown syntax for urls [text](//url.to/source) or
