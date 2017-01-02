@@ -6,7 +6,7 @@
         <h2 class="section-heading">{{ with .Site.Params.posts.title }}{{ . }}{{ end }}</h2>
       </div>
     </div>
-    
+
     <div class="row text-block">
         {{ range (.Paginator 3).Pages }}
         <div class="col-lg-4 col-md-3 col-sm-2">
@@ -29,7 +29,7 @@
 
     <center>
     {{ if .Paginator.HasPrev }}
-        <a href="{{ .Paginator.Prev.URL | absURL }}#posts">
+        <a href="{{ .Paginator.Prev.URL | absURL }}">
           <i class="fa fa-arrow-circle-o-left fa-3x"></i>
         </a>
     {{ end }}

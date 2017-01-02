@@ -5,6 +5,7 @@
 {{ partial "head.html"  }}
 {{ partial "nav.html" . }}
 {{ $baseurl := .Site.BaseURL }}
+
 <div class="artcl-header">
   <div class="articl-heading">
     {{ .Title }}
@@ -19,7 +20,6 @@
         {{ .Content }}
 </div>
 
-{{ partial "footer.html" . }}
 {{ partial "js.html" . }}
 
 </html>
