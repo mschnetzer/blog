@@ -7,7 +7,7 @@
       </div>
     </div>
 
-    <div class="row text-block">
+  <div class="row text-block">
         {{ range (.Paginator 3).Pages }}
         <div class="col-lg-4 col-md-3 col-sm-2">
             <div class="text-muted">
@@ -24,20 +24,24 @@
             </div>
         </div>
         {{ end }}
+  </div>
 
-    </div>
-
+  <div style="padding:20px;">
     <center>
     {{ if .Paginator.HasPrev }}
-        <a href="{{ .Paginator.Prev.URL | absURL }}">
-          <i class="fa fa-arrow-circle-o-left fa-3x"></i>
+        <a href="{{ .Paginator.Prev.URL }}#posts">
+          <i class="fa fa-arrow-circle-o-left fa-2x"></i>
         </a>
     {{ end }}
+    <span style="display:inline-block; width: 20px"></span>
+    {{ .Paginator.PageNumber | markdownify }} / {{ .Paginator.TotalPages | markdownify }}
+    <span style="display:inline-block; width: 20px"></span>
     {{ if .Paginator.HasNext }}
-        <a href="{{ .Paginator.Next.URL | absURL }}#posts">
-          <i class="fa fa-arrow-circle-o-right fa-3x"></i>
+        <a href="{{ .Paginator.Next.URL }}#posts">
+          <i class="fa fa-arrow-circle-o-right fa-2x"></i>
         </a>
     {{ end }}
   </center>
-  </div>
+</div>
+</div>
 </section>
