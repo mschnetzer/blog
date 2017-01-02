@@ -1,0 +1,33 @@
+{{ "<!-- Portfolio Modals -->" | safeHTML }}
+{{ range .Site.Data.publications }}
+  <div class="portfolio-modal modal fade" id="portfolioModal{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <h2>{{ .title  | markdownify }}</h2>
+              <p class="item-intro text-muted">"{{ .papertitle | markdownify }}"</p>
+              <ul style="list-style-type:none;text-align:left;">
+                <li>gemeinsam mit {{ .coauth | markdownify }}</li>
+                <li>{{ with $.Site.Params.portfolio.modal.journal }}{{ . | markdownify }}{{ end }}: {{ .journal }}</li>
+                <li><a target="_blank" href="{{ .doi }}"><i class="fa fa-external-link"></i> {{ .doi }}</a></li>
+                <li>{{ with $.Site.Params.portfolio.modal.date }}{{ . }}{{ end }}: {{ .date }}</li>
+              </ul>
+              {{ $url := printf "img/portfolio/%s" .img }}
+              <img class="img-responsive img-centered" src="{{ $url | absURL }}" alt="" width="150px" style="float:left;padding:15px;">
+              <p style="text-align:justify">{{ .description | markdownify }}</p>
+              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.portfolio.modal.buttonText }}{{ . }}{{ end }}</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }}
