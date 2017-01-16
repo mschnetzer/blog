@@ -12,11 +12,6 @@
         <div class="col-lg-4 col-md-3 col-sm-2">
             <div class="text-muted">
                 <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-                <div class="author-category">
-                {{ with .Params.author }}
-                von <a href="#">{{ . }}</a>
-                {{ end }}
-              </div>
                 <div style="text-align:justify;padding:9px">{{ .Summary }}</div>
                 <div>
                   <a href="{{ .Permalink }}"><i class="fa fa-arrow-circle-right"></i> Weiterlesen</a>

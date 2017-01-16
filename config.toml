@@ -29,8 +29,8 @@ canonifyURLs = "true"
 
   # 404 error customization
   [params.error404]
-    heading = "Page couldn't be found"
-    text = "Please visit [this page](/)"
+    heading = "Seite konnte nicht gefunden werden!"
+    text = "Bitte zurück [zur Startseite](/)"
 
   # Navigation
   [params.navigation]
@@ -66,7 +66,7 @@ canonifyURLs = "true"
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "political &middot; economist"
-    subtitle = "think lateral"
+    subtitle = "blog & papers"
     buttonText = "Weiterlesen"
 
 
@@ -80,21 +80,21 @@ canonifyURLs = "true"
 
     [[params.services.row.list]]
       icon = "fa-envelope"
-      title = "E-Commerce"
+      title = "E-Mail"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
+      url = "mailto:matthias.schnetzer@akwien.at"
+
+      [[params.services.row.list]]
+        icon = "fa-slack"
+        title = "Slack"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        url = "https://www.slack.com"
 
     [[params.services.row.list]]
       icon = "fa-gitlab"
-      title = "Responsive Design"
+      title = "Gitlab"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
-
-    [[params.services.row.list]]
-      icon = "fa-github"
-      title = "Web"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
+      url = "https://www.gitlab.com"
 
   # Blogs section
   [params.posts]
@@ -137,7 +137,7 @@ canonifyURLs = "true"
 
     [[params.about.events]]
       img = "wu.png"
-      date = "seit 2013"
+      date = "seit 2010"
       title = "Lektor, Wirtschaftsuniversität Wien"
       description = "Institut für Makroökonomie, Lehrveranstaltungen zu Wirtschaftspolitik und politischer Ökonomie"
 
@@ -216,7 +216,7 @@ She worked at Pied Piper for years until they went belly up."""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "erstellt mit [Hugo](http://gohugo.io) &middot; Titelfoto dankend von [Phirue](http://philippruemmele.com)"
+    copyright = "2017 &middot; erstellt mit [Hugo](http://gohugo.io) &middot; Titelfoto dankend von [Phirue](http://philippruemmele.com)"
 
     # [[params.footer.social]]
     #  icon = "fa-twitter"
