@@ -66,7 +66,7 @@ canonifyURLs = "true"
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "political &middot; economist"
-    subtitle = "blog & papers"
+    subtitle = "blogs & papers"
     buttonText = "Weiterlesen"
 
 
@@ -81,20 +81,20 @@ canonifyURLs = "true"
     [[params.services.row.list]]
       icon = "fa-envelope"
       title = "E-Mail"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = "Mein [Lebenslauf](http://tinyurl.com/gvmydt7) sowie meine [Publikationsliste](http://tinyurl.com/gtycvm8) befinden sich auf der Seite der [AK Wien](https://wien.arbeiterkammer.at/index.html)."
       url = "mailto:matthias.schnetzer@akwien.at"
 
       [[params.services.row.list]]
-        icon = "fa-slack"
-        title = "Slack"
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        url = "https://www.slack.com"
+        icon = "fa-bar-chart"
+        title = "Lehre"
+        description = "Ich halte [meine Lehrveranstaltungen](http://tinyurl.com/z23m9o9) an der Wirtschaftsuniversität Wien und in der [Gewerkschaftsschule](http://tinyurl.com/zeqqlqk) des ÖGB."
+        url = "https://www.wu.ac.at/vw1/m/mschnetz/"
 
     [[params.services.row.list]]
-      icon = "fa-gitlab"
-      title = "Gitlab"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "https://www.gitlab.com"
+      icon = "fa-github"
+      title = "Github"
+      description = "Diese Seite wird von Github Pages gehostet. Erstellt wurde sie mit [Hugo](https://gohugo.io) unter Verwendung des [Agency](http://themes.gohugo.io/agency/) Themes."
+      url = "https://www.github.com"
 
   # Blogs section
   [params.posts]
