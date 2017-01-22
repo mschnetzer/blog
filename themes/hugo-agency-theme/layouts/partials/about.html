@@ -31,9 +31,11 @@
 
           {{ if .Site.Params.about.endpointshow }}
           <li class="timeline-inverted">
+            <a href="{{ .Site.Params.about.endpointlink | absURL }}">
             <div class="timeline-image">
               <h4>{{ with .Site.Params.about.endpoint }}{{ . | markdownify }}{{ end }}</h4>
             </div>
+          </a>
           </li>
           {{ end }}
         </ul>

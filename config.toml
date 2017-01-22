@@ -39,10 +39,9 @@ canonifyURLs = "true"
     # logo = "logos/aetuts.jpg"
     posts = "Blog"
     portfolio = "Publikationen"
-    about = "Über mich"
-    services = "Kontakt"
+    about = "CV"
+    services = "Lehre"
     team = "Team"
-    contact = "Contact"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -73,33 +72,34 @@ canonifyURLs = "true"
   # Services section
   [params.services]
     enable = true
-    title = "Kontakt"
+    title = "Lehre"
     # subtitle = "Lorem ipsum dolor sit amet consectetur."
 
     [[params.services.row]]
 
-    [[params.services.row.list]]
-      icon = "fa-envelope"
-      title = "E-Mail"
-      description = "Mein [Lebenslauf](http://tinyurl.com/gvmydt7) sowie meine [Publikationsliste](http://tinyurl.com/gtycvm8) befinden sich auf der Seite der [AK Wien](https://wien.arbeiterkammer.at/index.html)."
-      url = "mailto:matthias.schnetzer@akwien.at"
-
       [[params.services.row.list]]
         icon = "fa-bar-chart"
-        title = "Lehre"
-        description = "Ich halte [meine Lehrveranstaltungen](http://tinyurl.com/z23m9o9) an der Wirtschaftsuniversität Wien und in der [Gewerkschaftsschule](http://tinyurl.com/zeqqlqk) des ÖGB."
-        url = "https://www.wu.ac.at/vw1/m/mschnetz/"
+        title = "Wirtschaftspolitik"
+        description = "Lehrveranstaltung im Bachelorstudium Volkswirtschaftslehre der WU Wien."
+        url = "http://vvz.wu.ac.at/cgi-bin/vvz.pl?C=L;I=5174;LV=3;L2=S;L3=S;S=17S;LANG=DE"
 
     [[params.services.row.list]]
-      icon = "fa-github"
-      title = "Github"
-      description = "Diese Seite wird von Github Pages gehostet. Erstellt wurde sie mit [Hugo](https://gohugo.io) unter Verwendung des [Agency](http://themes.gohugo.io/agency/) Themes."
-      url = "https://www.github.com"
+      icon = "fa-balance-scale"
+      title = "Verteilung und Macht"
+      description = "Lehrveranstaltung im Masterstudium Volkswirtschaftslehre der WU Wien."
+      url = "http://vvz.wu.ac.at/cgi-bin/vvz.pl?C=L;I=6113;LV=3;L2=S;L3=S;S=17S;LANG=DE"
+
+    [[params.services.row.list]]
+      icon = "fa-envelope"
+      title = "Kontakt"
+      description = "Sprechstunde nach Vereinbarung. Kontaktaufnahme per Mail an [diese Adresse](mailto:matthias.schnetzer@akwien.at)."
+      url = "mailto:matthias.schnetzer@akwien.at"
+
 
   # Blogs section
   [params.posts]
     enable = true
-    title = "Blogbeiträge"
+    title = "Neueste Blogbeiträge"
 
   # Portfolio section
   [params.portfolio]
@@ -108,12 +108,13 @@ canonifyURLs = "true"
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Publikationen"
+    title = "Ausgewählte Publikationen"
     # subtitle = "A selection of my work"
 
     [params.portfolio.modal]
       journal = "Publiziert in"
       date = "Veröffentlicht"
+      downlad = "Download"
       category = "Kategorie"
       buttonText = "Projekt schließen"
 
@@ -123,8 +124,9 @@ canonifyURLs = "true"
     enable = true
     title = "Über mich"
     # subtitle = "Lorem ipsum dolor sit amet consectetur."
-    endpointshow = false
-    endpoint = "More to<br>come in<br>2017"
+    endpointshow = true
+    endpoint = "Hier<br>klicken<br>für CV"
+    endpointlink = "/data/cv/cv_schnetzer.pdf"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.

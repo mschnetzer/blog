@@ -13,30 +13,16 @@
             <div class="text-muted">
                 <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
                 <div style="text-align:justify;padding:9px">{{ .Summary }}</div>
-                <div>
-                  <a href="{{ .Permalink }}"><i class="fa fa-arrow-circle-right"></i> Weiterlesen</a>
-                </div>
             </div>
         </div>
         {{ end }}
   </div>
 
   <div style="padding:20px;">
-    <center>
-    {{ if .Paginator.HasPrev }}
-        <a href="{{ .Paginator.Prev.URL }}#posts">
-          <i class="fa fa-arrow-circle-o-left fa-2x"></i>
-        </a>
-    {{ end }}
-    <span style="display:inline-block; width: 20px"></span>
-    {{ .Paginator.PageNumber | markdownify }} / {{ .Paginator.TotalPages | markdownify }}
-    <span style="display:inline-block; width: 20px"></span>
-    {{ if .Paginator.HasNext }}
-        <a href="{{ .Paginator.Next.URL }}#posts">
-          <i class="fa fa-arrow-circle-o-right fa-2x"></i>
-        </a>
-    {{ end }}
-  </center>
+    <ul style="list-style-type:none;text-align:left;">
+    <li>Weitere Beiträge:</li>
+    {{ range (after 3 .Site.Pages) }}{{ if eq .Type "blog" }} <li> <a href="{{ .Permalink }}">{{ .Title }}</a> </li> {{ end }}{{ end }}
+  </ul>
 </div>
 </div>
 </section>
