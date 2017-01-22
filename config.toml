@@ -126,7 +126,7 @@ canonifyURLs = "true"
     # subtitle = "Lorem ipsum dolor sit amet consectetur."
     endpointshow = true
     endpoint = "Hier<br>klicken<br>für CV"
-    endpointlink = "/data/cv/cv_schnetzer.pdf"
+    endpointlink = "/cv/cv_schnetzer.pdf"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
