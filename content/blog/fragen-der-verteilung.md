@@ -27,9 +27,9 @@ Das Wechselspiel zwischen Verteilung und Wachstum haben wir jüngst im [unabhän
 
 Eine zweite große Debatte dürfte wohl der Zusammenhang zwischen digitalem Wandel, modernen Produktionsprozessen und Verteilungsfragen werden. In welchem Umfang Maschinen die notwendige Menge menschlicher Arbeitsleistung in der Zukunft reduzieren werden, ist selbstverständlich [wilde Spekulation](https://www.aeaweb.org/articles.php?doi=10.1257/jep.29.3). Aber schon jetzt ist die Verteilung von Arbeit bzw. das Problem der Arbeitslosigkeit die dringendste Frage der europäischen Wirtschaftspolitik. Wie wir im iAGS 2016 darlegen, steigt nicht nur die offizielle Arbeitslosigkeit in der Eurozone, sondern auch die Zahl der Unterbeschäftigten und der „Entmutigten“, die sich bereits aus der erfolglosen Arbeitssuche zurückgezogen haben (siehe Abbildung).
 
-#### Abbildung: Arbeitslosigkeit und Unterbeschäftigung in der Eurozone
+#### Arbeitslosigkeit und Unterbeschäftigung in der Eurozone
 <center><img src="/img/blog/unemployment.jpg" style="width: 700px;"></center>
-Quelle: iAGS 2016
+##### Quelle: iAGS 2016
 
 Dem drohenden Druck auf Arbeitsplätze, Löhne und Finanzierung des Wohlfahrtsstaates gilt es eine Vision von technischem Wandel im Sinne der ArbeitnehmerInnen entgegenzustellen. Mögliche Ansatzpunkte aus Verteilungsperspektive könnten sein, die Produktivitätsfortschritte als Grundlage für eine [massive Reduktion der Arbeitszeit](http://blog.arbeit-wirtschaft.at/fortschritt-bedeutet-arbeitszeitverkuerzung-der-ansicht-waren-schon-marx-und-keynes/) heranzuziehen, eine Verschiebung der Finanzierung des Wohlfahrtsstaates [von der Lohnsumme auf eine Kapitalbasis](http://blog.arbeit-wirtschaft.at/wertschoepfungsabgabe/) anzudenken oder auch grundlegend die herrschenden Produktionsverhältnisse in Frage zu stellen – so wie Tony Atkinson in seinem neuen Buch fragt: „Who owns the robots?“
 

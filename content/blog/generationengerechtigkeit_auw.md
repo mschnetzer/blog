@@ -21,13 +21,13 @@ Die folgenden Abbildungen zur Zusammensetzung des reichsten 1% in der Eurozone v
 
 #### Statistischer und tatsächlicher Bevölkerungsanteil im Top 1%
 <center><img src="/img/blog/erbschaften.jpg" style="width: 700px;"></center>
-Quelle: HFCS 2010, eigene Berechnungen
+##### Quelle: HFCS 2010, eigene Berechnungen
 
 Die folgende Abbildung bietet einen genaueren Einblick. Die Sterne zeigen das Verhältnis zwischen dem Bevölkerungsanteil und dem tatsächlichen Anteil eines Landes im Top 1% an. Wenn die beiden Balken in der vorigen Abbildung, wie z.B. bei Frankreich, gleich hoch sind, dann ist der Stern genau bei 1. Österreichische Haushalte sind also doppelt so oft im reichsten Perzentil wie ihr Bevölkerungsanteil andeuten würde. Teilt man die Haushalte in Erben und Nicht-Erben auf, sind vorrangig Erben-Haushalte (grüne Dreiecke) deutlich überrepräsentiert.
 
 #### Auswirkungen von Erbschaften auf die Zugehörigkeit zum Top 1%
 <center><img src="/img/blog/erbvseink.jpg" style="width: 700px;"></center>
-Quelle: HFCS 2010, eigene Berechnungen
+##### Quelle: HFCS 2010, eigene Berechnungen
 
 Die Vererbung von Ungleichheit über Generationen hinweg führt zu einer fortschreitenden Verschärfung der Vermögenskonzentration, einer Verringerung von Chancengleichheit, ungleicher Abhängigkeit von den Leistungen des Wohlfahrtsstaates und zuletzt gefährdet sie auf lange Sicht auch die Demokratie und den gesellschaftlichen Zusammenhalt. Dass die Ungleichheit in Österreich – wie in den meisten Industriestaaten – steigt, ist mittlerweile unumstritten. Die [OECD warnt vor einer gesellschaftlichen Polarisierung](http://blog.arbeit-wirtschaft.at/oecd-steigende-ungleichheit-warum-eine-trendumkehr-notwendig-ist/) und sozialen Spannungen, weil die unteren 40% der Einkommensverteilung sukzessive abgehängt werden.
 

@@ -19,7 +19,7 @@ Dabei bestätigen neue wissenschaftliche Erkenntnisse, dass sich die Verteilungs
 
 #### Veränderung der Spitzensteuersätze und des Einkommensanteils der Top 1% (1964-2009)
 <center><img src="/img/blog/Blog_Atkinson_INEQ.jpg" style="width: 700px;"></center>
-Quelle: IWF 2015
+##### Quelle: IWF 2015
 
 ### Wie kann Wirtschaftswissenschaft radikal sein?
 

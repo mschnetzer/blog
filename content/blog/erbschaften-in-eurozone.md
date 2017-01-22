@@ -15,9 +15,9 @@ In einer [kürzlich erschienenen Studie](http://www.ineq.at/erben) des [WU-Forsc
 
 Gemessen am jeweiligen Bevölkerungsanteil in der Eurozone, sind Haushalte aus Österreich und Belgien im obersten Prozent der Nettovermögensverteilung (Top 1%) klar überproportional vertreten. Während große Länder wie Deutschland, Spanien und Frankreich relativ nahe am Wert ihres Bevölkerungsanteils liegen, sind kleinere Länder wie Griechenland, Slowenien und die Slowakei an der Spitze der europäischen Vermögensverteilung unterrepräsentiert (siehe Sterne in Abbildung 1).
 
-#### Abbildung 1: Relative Wahrscheinlichkeit der Zugehörigkeit zum reichsten 1% der Eurozone
+#### Abb. 1: Relative Wahrscheinlichkeit der Zugehörigkeit zum reichsten 1% der Eurozone
 <center><img src="/img/blog/erbvseink.jpg" style="width: 700px;"></center>
-Quelle: HFCS2010, eigene Berechnungen
+##### Quelle: HFCS2010, eigene Berechnungen
 
 An verschiedenen Punkten der Vermögensverteilung gibt es aber deutliche Unterschiede bei den Anteilen der einzelnen Länder, wie in der Studie ausführlich dargelegt wird. So sind Haushalte aus Deutschland in den reichsten 10% und auch in den Top 5% etwas unterrepräsentiert und erst im reichsten 1% leicht überproportional vertreten. Österreichische Haushalte sind hingegen in all den drei untersuchten Top-Vermögensbereichen überrepräsentiert.
 
@@ -33,9 +33,9 @@ Deshalb untersuchen wir die Effekte von Einkommen und Erbschaften auf die Positi
 
 Beispielhaft wird in Abbildung 2 der Fall Österreich dargestellt. Im linken Panel zeigt sich, dass ein zusätzliches Perzentil in der Einkommensverteilung den Haushalten in der Mitte der Vermögensverteilung am meisten bringt: sie steigen dadurch um fast ein halbes Perzentil in der Vermögenshierarchie. Der Erhalt einer Erbschaft (mittleres Panel) zeigt vor allem knapp unterhalb des Medians den größten Effekt: eine Erbschaft bedeutet einen Vorsprung von etwa 25 Perzentilen in der Nettovermögensverteilung. In Österreich wird deutlich, dass die Relevanz von Erbschaften im Vergleich zu Einkommen aus Arbeit in der ärmeren Hälfte sehr groß ist – allerdings wird hier nur selten überhaupt geerbt – aber auch ganz am oberen Rand der Vermögensverteilung stark an Wichtigkeit gewinnt (rechtes Panel). Beim reichsten 1% ist der Effekt des Arbeitseinkommens allerdings sehr gering, weshalb Erbschaften einen vergleichsweise massiven Einfluss haben.
 
-#### Abbildung 2: Verhältnis zwischen Einkommen und Erbschaften in Österreich
+#### Abb. 2: Verhältnis zwischen Einkommen und Erbschaften in Österreich
 <center><img src="/img/blog/erbvseinkat.jpg" style="width: 700px;"></center>
-Quelle: HFCS2010, eigene Berechnungen
+##### Quelle: HFCS2010, eigene Berechnungen
 
 ### Erbschaften im Europa-Vergleich am wichtigsten in Österreich
 
