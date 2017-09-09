@@ -9,7 +9,7 @@
     </div>
     <div class="row">
 
-      {{ range .Site.Data.publications }}
+      {{ range sort .Site.Data.publications ".date" "desc" }}
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a href="#publikation{{ .modalID }}" class="portfolio-link" data-toggle="modal">
             <div class="portfolio-hover">
