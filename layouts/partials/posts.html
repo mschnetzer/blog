@@ -21,7 +21,7 @@
   <div style="padding:20px;">
     <ul style="list-style-type:none;text-align:left;">
     <li>Weitere Beiträge:</li>
-    {{ range (after 3 .Site.Pages) }}{{ if eq .Type "blog" }} <li> <a href="{{ .Permalink }}">{{ .Title }}</a> </li> {{ end }}{{ end }}
+    {{ range (after 3 .Pages) }}{{ if eq .Type "blog" }} <li> <a href="{{ .Permalink }}">{{ .Title }}</a> </li> {{ end }}{{ end }}
   </ul>
 </div>
 </div>
