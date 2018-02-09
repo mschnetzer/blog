@@ -18,9 +18,9 @@
         {{ end }}
   </div>
 
-  <div style="padding:20px;">
-    <ul style="list-style-type:none;text-align:left;">
-    <li>Weitere Beiträge:</li>
+  <div class="posts-list">
+    <ul>
+    <div class="posts-more">Weitere Beiträge</div>
     {{ range (after 3 .Pages) }}{{ if eq .Type "blog" }} <li> <a href="{{ .Permalink }}">{{ .Title }}</a> </li> {{ end }}{{ end }}
   </ul>
 </div>
