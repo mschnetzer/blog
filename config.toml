@@ -81,19 +81,19 @@ canonifyURLs = "true"
         icon = "fa-bar-chart"
         title = "Wirtschaftspolitik"
         description = "Lehrveranstaltung im Bachelorstudium Volkswirtschaftslehre der WU Wien."
-        url = "http://vvz.wu.ac.at/cgi-bin/vvz.pl?C=L;I=5174;LV=3;L2=S;L3=S;S=17S;LANG=DE"
+        #url = "http://vvz.wu.ac.at/cgi-bin/vvz.pl?C=L;I=5174;LV=3;L2=S;L3=S;S=17S;LANG=DE"
 
     [[params.services.row.list]]
       icon = "fa-balance-scale"
-      title = "Verteilung und Macht"
+      title = "Verteilung und Wachstum"
       description = "Lehrveranstaltung im Masterstudium Volkswirtschaftslehre der WU Wien."
-      url = "http://vvz.wu.ac.at/cgi-bin/vvz.pl?C=L;I=6113;LV=3;L2=S;L3=S;S=17S;LANG=DE"
+      #url = "http://vvz.wu.ac.at/cgi-bin/vvz.pl?C=L;I=6113;LV=3;L2=S;L3=S;S=17S;LANG=DE"
 
     [[params.services.row.list]]
       icon = "fa-envelope"
       title = "Kontakt"
       description = "Sprechstunde nach Vereinbarung. Kontaktaufnahme per Mail an [diese Adresse](mailto:matthias.schnetzer@akwien.at)."
-      url = "mailto:matthias.schnetzer@akwien.at"
+      #url = "mailto:matthias.schnetzer@akwien.at"
 
 
   # Blogs section
