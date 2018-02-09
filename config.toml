@@ -2,7 +2,7 @@
 languageCode = "de-DE"
 title = "matthias schnetzer"
 theme = "hugo-agency-theme"
-baseURL = "https://smanull.github.io/"
+baseURL = "https://mschnetzer.github.io/"
 canonifyURLs = "true"
 
 [params]
@@ -218,7 +218,7 @@ She worked at Pied Piper for years until they went belly up."""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "2017 &middot; erstellt mit [Hugo](http://gohugo.io) &middot; Titelfoto von [Phirue](http://philippruemmele.com)"
+    copyright = "2018 &middot; erstellt mit [Hugo](http://gohugo.io) &middot; Titelfoto von [Phirue](http://philippruemmele.com)"
 
     # [[params.footer.social]]
     #  icon = "fa-twitter"
