@@ -1,16 +1,18 @@
 # Site settings
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "de"
 title = "matthias schnetzer"
-theme = "hugo-agency-theme"
 baseURL = "https://mschnetzer.github.io/"
+theme = "hugo-agency-theme"
 canonifyURLs = "true"
 
 [languages]
 [languages.de]
   languageName = "Deutsch"
+  baseURL = "https://mschnetzer.github.io/"
   weight = 1
 [languages.en]
   languageName = "English"
+  baseURL = "https://mschnetzer.github.io/en/"
   weight = 2
 
 [params]
@@ -112,7 +114,7 @@ canonifyURLs = "true"
     morepost = "Weitere Beiträge"
 
   [languages.en.posts]
-    enable = true
+    enable = false
     title = "Latest blogposts"
     morepost = "More blogposts"
 
@@ -200,7 +202,7 @@ canonifyURLs = "true"
         img = "wu.png"
         date = "since 2010"
         title = "Lecturer, Vienna University of Economics and Business"
-        description = "Department for Economics"
+        description = "Department of Economics, Institute for Macroeconomics"
 
       [[languages.en.about.events]]
         img = "bmask.jpg"
