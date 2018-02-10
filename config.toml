@@ -1,5 +1,6 @@
 # Site settings
 DefaultContentLanguage = "de"
+defaultContentLanguageInSubdir = "true"
 title = "matthias schnetzer"
 baseURL = "https://mschnetzer.github.io/"
 theme = "hugo-agency-theme"
@@ -8,11 +9,9 @@ canonifyURLs = "true"
 [languages]
 [languages.de]
   languageName = "Deutsch"
-  baseURL = "https://mschnetzer.github.io/"
   weight = 1
 [languages.en]
   languageName = "English"
-  baseURL = "https://mschnetzer.github.io/en/"
   weight = 2
 
 [params]
@@ -23,17 +22,17 @@ canonifyURLs = "true"
 
 #########################
 # 404 error customization
-  [params.error404]
+  [languages.de.error404]
     heading = "Seite konnte nicht gefunden werden!"
     text = "Bitte zurück [zur Startseite](/)"
 
   [languages.en.error404]
-    heading = "Page was not found!"
+    heading = "Page not found!"
     text = "Back [to the Homepage](/)"
 
 ############
 # Navigation
-  [params.navigation]
+  [languages.de.navigation]
     brand = "matthias schnetzer"
     posts = "Blog"
     portfolio = "Publikationen"
@@ -49,7 +48,7 @@ canonifyURLs = "true"
 
 ##############
 # Header section
-  [params.hero]
+  [languages.de.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in the 'static/img' folder.
     # title = "political &middot; economist"
     subtitle = "posts & papers"
@@ -61,25 +60,25 @@ canonifyURLs = "true"
 
 ##################
 # Lehre section
-  [params.services]
+  [languages.de.services]
     enable = true
     title = "Lehre"
 
-    [[params.services.row]]
+    [[languages.de.services.row]]
 
-      [[params.services.row.list]]
+      [[languages.de.services.row.list]]
         icon = "fa-bar-chart"
         title = "Wirtschaftspolitik"
         description = "Lehrveranstaltung im Bachelorstudium Volkswirtschaftslehre der WU Wien."
         #url = "http://vvz.wu.ac.at/cgi-bin/vvz.pl?C=L;I=5174;LV=3;L2=S;L3=S;S=17S;LANG=DE"
 
-    [[params.services.row.list]]
+    [[languages.de.services.row.list]]
       icon = "fa-balance-scale"
       title = "Verteilung und Wachstum"
       description = "Lehrveranstaltung im Masterstudium Volkswirtschaftslehre der WU Wien."
       #url = "http://vvz.wu.ac.at/cgi-bin/vvz.pl?C=L;I=6113;LV=3;L2=S;L3=S;S=17S;LANG=DE"
 
-    [[params.services.row.list]]
+    [[languages.de.services.row.list]]
       icon = "fa-envelope"
       title = "Kontakt"
       description = "Sprechstunde nach Vereinbarung. Kontaktaufnahme per Mail an [diese Adresse](mailto:matthias.schnetzer@akwien.at)."
@@ -108,7 +107,7 @@ canonifyURLs = "true"
 
 ###############
 # Blogs section
-  [params.posts]
+  [languages.de.posts]
     enable = true
     title = "Neueste Blogbeiträge"
     morepost = "Weitere Beiträge"
@@ -120,13 +119,13 @@ canonifyURLs = "true"
 
 ###################
 # Publikationen section
-  [params.portfolio]
+  [languages.de.portfolio]
     enable = true
     # All projects defined in their own files. You can find example projects at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory at the root of this Hugo site.
     title = "Ausgewählte Publikationen"
     # subtitle = "A selection of my work"
 
-    [params.portfolio.modal]
+    [languages.de.portfolio.modal]
       publishedin = "publiziert"
       togetherwith = "gemeinsam mit"
       downlad = "Download"
@@ -146,7 +145,7 @@ canonifyURLs = "true"
 
 ###############
 # CV section
-  [params.about]
+  [languages.de.about]
     enable = true
     title = "Über mich"
     # subtitle = "Lorem ipsum dolor sit amet consectetur."
@@ -154,31 +153,31 @@ canonifyURLs = "true"
     endpoint = "Hier<br>klicken<br>für CV"
     endpointlink = "/cv/cv_schnetzer.pdf"
 
-    [[params.about.events]]
+    [[languages.de.about.events]]
       img = "ak.jpg"
       date = "seit 2013"
       title = "Ökonom, Arbeiterkammer Wien"
       description = "Abteilung Wirtschaftswissenschaften und Statistik, Referent für Verteilungsfragen"
 
-    [[params.about.events]]
+    [[languages.de.about.events]]
       img = "wu.png"
       date = "seit 2010"
       title = "Lektor, Wirtschaftsuniversität Wien"
       description = "Institut für Makroökonomie, Lehrveranstaltungen zu Wirtschaftspolitik und politischer Ökonomie"
 
-    [[params.about.events]]
+    [[languages.de.about.events]]
       img = "bmask.jpg"
       date = "2015"
       title = "Anerkennungspreis, Sozialministerium"
       description = "Wissenschaftspreis des Bundesministeriums für Soziales, Arbeit und Konsumentenschutz für Jungakademiker, Würdigung der Dissertation"
 
-    [[params.about.events]]
+    [[languages.de.about.events]]
       img = "matzner.jpg"
       date = "2016"
       title = "Egon-Matzner-Preis für Sozioökonomie"
       description = "Preis des Instituts für Finanzwissenschaft und Infrastrukturpolitik an der TU Wien für einen Beitrag zu Vermögenskonzentration und Machtgefälle"
 
-  [[params.about.events]]
+  [[languages.de.about.events]]
       img = "rothschild.jpg"
       date = "2016"
       title = "Kurt-Rothschild-Preis für Wirtschaftspublizstik"
@@ -224,7 +223,7 @@ canonifyURLs = "true"
 
 ################
 # Footer section
-  [params.footer]
+  [languages.de.footer]
     enable = true
     copyright = "2018 &middot; erstellt mit [Hugo](http://gohugo.io) &middot; Titelfoto von [Phirue](http://philippruemmele.com)"
 

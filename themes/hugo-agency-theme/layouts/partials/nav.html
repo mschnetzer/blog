@@ -72,10 +72,10 @@
         {{ end }}
 
         <li>
-        {{ if eq .Site.Language.Lang "de" }}
-        <a class="page-scroll" href="https://mschnetzer.github.io/en/">EN</a>
+        {{ if eq .Site.Language.Weight 1 }}
+        <a class="page-scroll" href="https://mschnetzer.github.io/en/">English</a>
         {{ else }}
-        <a class="page-scroll" href="https://mschnetzer.github.io/">DE</a>
+        <a class="page-scroll" href="https://mschnetzer.github.io/de/">Deutsch</a>
         {{ end }}
         </li>
 
