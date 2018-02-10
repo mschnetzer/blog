@@ -20,8 +20,9 @@
 
   <div class="posts-list">
     <ul>
-    <div class="posts-more">Weitere Beiträge</div>
-    {{ range (after 3 .Pages) }}{{ if eq .Type "blog" }} <li> <a href="{{ .Permalink }}">{{ .Title }}</a> </li> {{ end }}{{ end }}
+    <div class="posts-more">{{ with .Site.Params.posts.morepost }}{{ . }}{{ end }}</div>
+    {{ if gt (len (where .Pages "Section" "blog")) 3 }}
+    {{ range (after 3 .Pages) }}{{ if eq .Type "blog" }} <li> <a href="{{ .Permalink }}">{{ .Title }}</a> </li> {{ end }}{{ end }}{{ end }}
   </ul>
 </div>
 </div>

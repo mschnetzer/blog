@@ -7,10 +7,10 @@
 {{ $baseurl := .Site.BaseURL }}
 
 <div class="artcl-header">
-  <div class="articl-heading">
+  <div class="artcl-heading">
     {{ .Title }}
   </div>
-  <div style="font-size:15px;">
+  <div class="artcl-info">
     {{ if .Params.origlink }} <i class="fa fa-pencil"></i> <a target="_blank" href="{{ .Params.origlink }}">Originalbeitrag</a> <span style="display:inline-block; width: 20px"></span> {{ end }}
     <i class="fa fa-calendar"></i> {{ .Date.Format "2.1.2006" }} <span style="display:inline-block; width: 20px"></span>
     <i class="fa fa-clock-o"></i> {{ .ReadingTime }} Minuten Lesezeit

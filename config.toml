@@ -1,79 +1,67 @@
 # Site settings
-languageCode = "de-DE"
+DefaultContentLanguage = "en"
 title = "matthias schnetzer"
 theme = "hugo-agency-theme"
 baseURL = "https://mschnetzer.github.io/"
 canonifyURLs = "true"
 
+[languages]
+[languages.de]
+  languageName = "Deutsch"
+  weight = 1
+[languages.en]
+  languageName = "English"
+  weight = 2
+
 [params]
-  # You can use Markdown syntax for urls [text](//url.to/source) or
-  # most longer texts.
-  #
-  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
-  # for more icons. The icons are represented by their corresponding
-  # CSS class.
-
-  # To provide some metadata for search engines feel free to add a few
-  # information about you and your website.
   name = "Matthias Schnetzer"
-  # description = ""
-
-  # Link custom assets relative to /static
   custom_css = []
   custom_js  = []
-  # favicon    = "favicon.ico"
-
-  # Possibility to disable external/additional fonts
-  # Exception: Fontawesome
   disableFonts = false
 
-  # 404 error customization
+#########################
+# 404 error customization
   [params.error404]
     heading = "Seite konnte nicht gefunden werden!"
     text = "Bitte zurück [zur Startseite](/)"
 
-  # Navigation
+  [languages.en.error404]
+    heading = "Page was not found!"
+    text = "Back [to the Homepage](/)"
+
+############
+# Navigation
   [params.navigation]
     brand = "matthias schnetzer"
-    # Optional logo as brand stored in img/
-    # logo = "logos/aetuts.jpg"
     posts = "Blog"
     portfolio = "Publikationen"
     about = "CV"
     services = "Lehre"
-    team = "Team"
 
-    # Add custom links. Those can be pre- and postpended to the default menu above.
-    # Use the weight attribute to order your custom links. Uncomment the example
-    # below and replace the values with your own.
+  [languages.en.navigation]
+    brand = "matthias schnetzer"
+    posts = "Blog"
+    portfolio = "Publications"
+    about = "CV"
+    services = "Teaching"
 
-    # prepended links
-    #[[menu.prepend]]
-    #  url = "http://gohugo.io"
-    #  name = "Hugo"
-    #  weight = 10
-
-    # postpended links
-    # [[menu.postpend]]
-    #  url = "http://wien.arbeiterkammer.at"
-    #  name = "@akwien"
-    #  weight = 10
-
-
-  # Hero section
+##############
+# Header section
   [params.hero]
-    # To change the background image of the hero, replace 'header-bg.jpg' in
-    # the 'static/img' folder.
+    # To change the background image of the hero, replace 'header-bg.jpg' in the 'static/img' folder.
     # title = "political &middot; economist"
     subtitle = "posts & papers"
     buttonText = "Weiterlesen"
 
+  [languages.en.hero]
+    subtitle = "posts & papers"
+    buttonText = "Read more"
 
-  # Services section
+##################
+# Lehre section
   [params.services]
     enable = true
     title = "Lehre"
-    # subtitle = "Lorem ipsum dolor sit amet consectetur."
 
     [[params.services.row]]
 
@@ -95,31 +83,67 @@ canonifyURLs = "true"
       description = "Sprechstunde nach Vereinbarung. Kontaktaufnahme per Mail an [diese Adresse](mailto:matthias.schnetzer@akwien.at)."
       #url = "mailto:matthias.schnetzer@akwien.at"
 
+  [languages.en.services]
+    enable = true
+    title = "Teaching"
 
-  # Blogs section
+    [[languages.en.services.row]]
+
+      [[languages.en.services.row.list]]
+        icon = "fa-bar-chart"
+        title = "Economic Policy"
+        description = "Bachelor's course at the Department of Economics, WU Wien."
+
+    [[languages.en.services.row.list]]
+      icon = "fa-balance-scale"
+      title = "Distribution and growth"
+      description = "Master's course at the Department of Economics, WU Wien."
+
+    [[languages.en.services.row.list]]
+      icon = "fa-envelope"
+      title = "Contact"
+      description = "Please contact me via [my email address](mailto:matthias.schnetzer@akwien.at)."
+
+###############
+# Blogs section
   [params.posts]
     enable = true
     title = "Neueste Blogbeiträge"
+    morepost = "Weitere Beiträge"
 
-  # Portfolio section
+  [languages.en.posts]
+    enable = true
+    title = "Latest blogposts"
+    morepost = "More blogposts"
+
+###################
+# Publikationen section
   [params.portfolio]
     enable = true
-    # All projects defined in their own files. You can find example projects
-    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
-    # at the root of this Hugo site.
-    # For more informtion take a look at the README.
+    # All projects defined in their own files. You can find example projects at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory at the root of this Hugo site.
     title = "Ausgewählte Publikationen"
     # subtitle = "A selection of my work"
 
     [params.portfolio.modal]
-      journal = "Publiziert in"
-      date = "Veröffentlicht"
+      publishedin = "publiziert"
+      togetherwith = "gemeinsam mit"
       downlad = "Download"
       category = "Kategorie"
       buttonText = "Publikation schließen"
 
+  [languages.en.portfolio]
+    enable=true
+    title= "Selected publications"
 
-    # About section
+    [languages.en.portfolio.modal]
+      publishedin = "published"
+      togetherwith = "co-authored by"
+      downlad = "Download"
+      category = "Category"
+      buttonText = "Close publication"
+
+###############
+# CV section
   [params.about]
     enable = true
     title = "Über mich"
@@ -128,9 +152,6 @@ canonifyURLs = "true"
     endpoint = "Hier<br>klicken<br>für CV"
     endpointlink = "/cv/cv_schnetzer.pdf"
 
-    # The events will be listed from the top to the bottom.
-    # All images are stored under 'static/img/about'.
-    # Replace them with your own.
     [[params.about.events]]
       img = "ak.jpg"
       date = "seit 2013"
@@ -161,64 +182,53 @@ canonifyURLs = "true"
       title = "Kurt-Rothschild-Preis für Wirtschaftspublizstik"
       description = "Preis des Renner-Instituts und des SPÖ-Parlamentsklubs für einen Beitrag zur Rolle von Erbschaften beim Vermögensaufbau"
 
+  [languages.en.about]
+      enable = true
+      title = "About me"
+      # subtitle = "Lorem ipsum dolor sit amet consectetur."
+      endpointshow = true
+      endpoint = "Click<br>here<br>for CV"
+      endpointlink = "/cv/cv_schnetzer_en.pdf"
 
-  # Team section
-  [params.team]
-    enable = false
-    # Possibility to center items
-    #center = true
-    title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+      [[languages.en.about.events]]
+        img = "ak.jpg"
+        date = "since 2013"
+        title = "Economist, Austrian Federal Chamber of Labor"
+        description = "Department of Economics and Statistics"
 
-    # All team member's pictures are stored under 'static/img/team'.
-    # Replace them with your own too.
-    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
-    [[params.team.members]]
-      img = "1.jpg"
-      name = "Kay Garland"
-      position = "Lead Designer"
-      reportsTo = "CTO"
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
-      ]
-      # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+      [[languages.en.about.events]]
+        img = "wu.png"
+        date = "since 2010"
+        title = "Lecturer, Vienna University of Economics and Business"
+        description = "Department for Economics"
 
-    [[params.team.members]]
-      img = "2.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+      [[languages.en.about.events]]
+        img = "bmask.jpg"
+        date = "2015"
+        title = "Appreciation award, Austrian Ministry for Social Affairs"
+        description = "Award for young scholars, Appreciation for the dissertation"
 
-    [[params.team.members]]
-      img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+      [[languages.en.about.events]]
+        img = "matzner.jpg"
+        date = "2016"
+        title = "Egon-Matzner-Award for Socio-Economics"
+        description = "Awarded by the Centre of Public Finance and Infrastructure Policy at the TU Wien"
 
+      [[languages.en.about.events]]
+        img = "rothschild.jpg"
+        date = "2016"
+        title = "Kurt-Rothschild-Award"
+        description = "Awarded by the Karl Renner Institute and the Austrian Socialdemocratic Party"
 
-  # Footer section
+################
+# Footer section
   [params.footer]
     enable = true
     copyright = "2018 &middot; erstellt mit [Hugo](http://gohugo.io) &middot; Titelfoto von [Phirue](http://philippruemmele.com)"
+
+  [languages.en.footer]
+    enable = true
+    copyright = "2018 &middot; created with [Hugo](http://gohugo.io) &middot; Image by [Phirue](http://philippruemmele.com)"
 
     # [[params.footer.social]]
     #  icon = "fa-twitter"
