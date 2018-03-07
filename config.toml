@@ -128,7 +128,7 @@ canonifyURLs = "true"
     [languages.de.portfolio.modal]
       publishedin = "publiziert"
       togetherwith = "gemeinsam mit"
-      downlad = "Download"
+      downlad = "Link"
       category = "Kategorie"
       buttonText = "Publikation schließen"
 
