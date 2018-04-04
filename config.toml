@@ -51,11 +51,11 @@ canonifyURLs = "true"
   [languages.de.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in the 'static/img' folder.
     # title = "political &middot; economist"
-    subtitle = "posts & papers"
+    # subtitle = "posts & papers"
     buttonText = "Weiterlesen"
 
   [languages.en.hero]
-    subtitle = "posts & papers"
+    # subtitle = "posts & papers"
     buttonText = "Read more"
 
 ##################
