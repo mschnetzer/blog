@@ -67,7 +67,7 @@ canonifyURLs = "true"
     [[languages.de.services.row]]
 
       [[languages.de.services.row.list]]
-        icon = "fa-bar-chart"
+        icon = "fa-chart-bar"
         title = "Wirtschaftspolitik"
         description = "Lehrveranstaltung im Bachelorstudium Volkswirtschaftslehre der WU Wien."
         #url = "http://vvz.wu.ac.at/cgi-bin/vvz.pl?C=L;I=5174;LV=3;L2=S;L3=S;S=17S;LANG=DE"
@@ -91,7 +91,7 @@ canonifyURLs = "true"
     [[languages.en.services.row]]
 
       [[languages.en.services.row.list]]
-        icon = "fa-bar-chart"
+        icon = "fa-chart-bar"
         title = "Economic Policy"
         description = "Bachelor's course at the Department of Economics, WU Wien."
 
