@@ -67,13 +67,13 @@ canonifyURLs = "true"
     [[languages.de.services.row]]
 
       [[languages.de.services.row.list]]
-        icon = "fa-chart-bar"
+        icon = "fa-comments"
         title = "Wirtschaftspolitik"
         description = "Lehrveranstaltung im Bachelorstudium Volkswirtschaftslehre der WU Wien."
         #url = "http://vvz.wu.ac.at/cgi-bin/vvz.pl?C=L;I=5174;LV=3;L2=S;L3=S;S=17S;LANG=DE"
 
     [[languages.de.services.row.list]]
-      icon = "fa-balance-scale"
+      icon = "fa-chart-bar"
       title = "Verteilung und Wachstum"
       description = "Lehrveranstaltung im Masterstudium Volkswirtschaftslehre der WU Wien."
       #url = "http://vvz.wu.ac.at/cgi-bin/vvz.pl?C=L;I=6113;LV=3;L2=S;L3=S;S=17S;LANG=DE"
@@ -225,11 +225,11 @@ canonifyURLs = "true"
 # Footer section
   [languages.de.footer]
     enable = true
-    copyright = "2018 &middot; erstellt mit [Hugo](http://gohugo.io) &middot; Titelfoto von [Phirue](http://philippruemmele.com)"
+    copyright = "&nbsp;&middot; erstellt mit [Hugo](http://gohugo.io) &middot; Titelfoto von [Phirue](http://philippruemmele.com)"
 
   [languages.en.footer]
     enable = true
-    copyright = "2018 &middot; created with [Hugo](http://gohugo.io) &middot; Image by [Phirue](http://philippruemmele.com)"
+    copyright = "&nbsp;&middot; created with [Hugo](http://gohugo.io) &middot; Image by [Phirue](http://philippruemmele.com)"
 
     # [[params.footer.social]]
     #  icon = "fa-twitter"
