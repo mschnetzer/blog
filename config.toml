@@ -126,7 +126,6 @@ canonifyURLs = "true"
     # subtitle = "A selection of my work"
 
     [languages.de.portfolio.modal]
-      publishedin = "publiziert"
       togetherwith = "gemeinsam mit"
       downlad = "Link"
       category = "Kategorie"
@@ -137,7 +136,6 @@ canonifyURLs = "true"
     title= "Selected publications"
 
     [languages.en.portfolio.modal]
-      publishedin = "published"
       togetherwith = "co-authored by"
       downlad = "Download"
       category = "Category"

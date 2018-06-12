@@ -15,7 +15,7 @@
               <p class="item-intro text-muted">{{ .title | markdownify }}</p>
               <h3>{{ .papertitle | markdownify }}</h3>
               <p><ul style="list-style-type:none;text-align:left;">
-                <li>{{ $.Site.Params.portfolio.modal.publishedin | markdownify }} {{ .date }} {{ if .coauth }} {{ $.Site.Params.portfolio.modal.togetherwith | markdownify }} {{ .coauth | markdownify }} {{ end }} in {{ .journal }}</li>
+                <li>{{ .journal }} [{{ .date }}{{ if .coauth }} {{ $.Site.Params.portfolio.modal.togetherwith | markdownify }} {{ .coauth | markdownify }}{{ end }}]</li>
                 <li>{{ with $.Site.Params.portfolio.modal.downlad }}{{ . | markdownify }}{{ end }}: <a target="_blank" href="{{ .doi }}"><i class="fa fa-external-link"></i> {{ .doi }}</a></li>
               </ul></p>
               {{ $url := printf "img/portfolio/%s" .img }}
