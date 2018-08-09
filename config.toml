@@ -181,6 +181,12 @@ canonifyURLs = "true"
       title = "Kurt-Rothschild-Preis für Wirtschaftspublizstik"
       description = "Preis des Renner-Instituts und des SPÖ-Parlamentsklubs für einen Beitrag zur Rolle von Erbschaften beim Vermögensaufbau"
 
+  [[languages.de.about.events]]
+      img = "iariw.jpg"
+      date = "2018"
+      title = "Nancy and Richard Ruggles Memorial Prize"
+      description = "Vergeben durch die International Association for Research in Income and Wealth (IARIW)"
+
   [languages.en.about]
       enable = true
       title = "About me"
@@ -218,6 +224,12 @@ canonifyURLs = "true"
         date = "2016"
         title = "Kurt-Rothschild-Award"
         description = "Awarded by the Karl Renner Institute and the Austrian Socialdemocratic Party"
+
+      [[languages.en.about.events]]
+        img = "iariw.jpg"
+        date = "2018"
+        title = "Nancy and Richard Ruggles Memorial Prize"
+        description = "Awarded by the International Association for Research in Income and Wealth (IARIW)"
 
 ################
 # Footer section
