@@ -67,21 +67,21 @@ canonifyURLs = "true"
     [[languages.de.services.row]]
 
       [[languages.de.services.row.list]]
-        icon = "fa-comments"
-        title = "Wirtschaftspolitik"
-        description = "Lehrveranstaltung im Bachelorstudium Volkswirtschaftslehre der WU Wien."
+        icon = "fa-balance-scale"
+        title = "Ökonomie der Verteilung"
+        description = "Vertiefungsfach im Masterstudium Volkswirtschaftslehre an der WU Wien."
         #url = "http://vvz.wu.ac.at/cgi-bin/vvz.pl?C=L;I=5174;LV=3;L2=S;L3=S;S=17S;LANG=DE"
 
     [[languages.de.services.row.list]]
       icon = "fa-chart-bar"
       title = "Verteilung und Wachstum"
-      description = "Lehrveranstaltung im Masterstudium Volkswirtschaftslehre der WU Wien."
+      description = "Lehrveranstaltung im Masterstudium Volkswirtschaftslehre (Applied track) der WU Wien."
       #url = "http://vvz.wu.ac.at/cgi-bin/vvz.pl?C=L;I=6113;LV=3;L2=S;L3=S;S=17S;LANG=DE"
 
     [[languages.de.services.row.list]]
-      icon = "fa-envelope"
+      icon = "fa-comments"
       title = "Kontakt"
-      description = "Sprechstunde nach Vereinbarung. Kontaktaufnahme per Mail an [diese Adresse](mailto:matthias.schnetzer@akwien.at)."
+      description = "Sprechstunde nach Vereinbarung. Kontaktaufnahme [per Mail](mailto:matthias.schnetzer@akwien.at)."
       #url = "mailto:matthias.schnetzer@akwien.at"
 
   [languages.en.services]
@@ -91,17 +91,17 @@ canonifyURLs = "true"
     [[languages.en.services.row]]
 
       [[languages.en.services.row.list]]
-        icon = "fa-chart-bar"
-        title = "Economic Policy"
-        description = "Bachelor's course at the Department of Economics, WU Wien."
+        icon = "fa-balance-scale"
+        title = "Economics of distribution"
+        description = "Master's course at the Department of Economics, WU Vienna."
 
     [[languages.en.services.row.list]]
-      icon = "fa-balance-scale"
+      icon = "fa-chart-bar"
       title = "Distribution and growth"
-      description = "Master's course at the Department of Economics, WU Wien."
+      description = "Master's course at the Department of Economics, WU Vienna."
 
     [[languages.en.services.row.list]]
-      icon = "fa-envelope"
+      icon = "fa-comments"
       title = "Contact"
       description = "Please contact me via [my email address](mailto:matthias.schnetzer@akwien.at)."
 
