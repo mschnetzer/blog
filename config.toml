@@ -79,10 +79,10 @@ canonifyURLs = "true"
       #url = "http://vvz.wu.ac.at/cgi-bin/vvz.pl?C=L;I=6113;LV=3;L2=S;L3=S;S=17S;LANG=DE"
 
     [[languages.de.services.row.list]]
-      icon = "fa-comments"
-      title = "Kontakt"
-      description = "Sprechstunde nach Vereinbarung. Kontaktaufnahme [per Mail](mailto:matthias.schnetzer@akwien.at)."
-      #url = "mailto:matthias.schnetzer@akwien.at"
+      icon = "fa-pencil-alt"
+      title = "Betreuung von Masterarbeiten"
+      description = "Für [diese Masterarbeiten](masterarbeiten) nehme ich Bewerbungen entgegen."
+
 
   [languages.en.services]
     enable = true
@@ -101,9 +101,9 @@ canonifyURLs = "true"
       description = "Master's course at the Department of Economics, WU Vienna."
 
     [[languages.en.services.row.list]]
-      icon = "fa-comments"
-      title = "Contact"
-      description = "Please contact me via [my email address](mailto:matthias.schnetzer@akwien.at)."
+      icon = "fa-pencil-alt"
+      title = "Supervision of master theses"
+      description = "I accept applications for [selected master theses](/de/masterarbeiten/)."
 
 ###############
 # Blogs section
