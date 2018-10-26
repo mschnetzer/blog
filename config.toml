@@ -5,6 +5,7 @@ title = "matthias schnetzer"
 baseURL = "https://mschnetzer.github.io/"
 theme = "hugo-agency-theme"
 canonifyURLs = "true"
+PaginatePath = "blog"
 
 [languages]
 [languages.de]
