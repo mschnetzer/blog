@@ -8,7 +8,8 @@
     </div>
 
   <div class="row text-block">
-        {{ range (.Paginator 3).Pages }}
+        {{ $paginator := .Paginate (where .Pages "Section" "blog") 3 }}
+        {{ range $paginator.Pages }}
         <div class="col-lg-4 col-md-3 col-sm-2">
             <div class="text-muted">
                 <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
