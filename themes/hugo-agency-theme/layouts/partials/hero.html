@@ -1,24 +1,31 @@
 {{ "<!-- Hero -->" | safeHTML }}
 <header>
-  <div class="container">
-    <div class="intro-text">
+  <div class="bg-light-gray">
+    <div class="container">
+    <div class="col-sm-4 intro-text">
       <div class="intro-pic">
       </div>
 
 
       <a target="_blank" href="https://twitter.com/matschnetzer"><div class="intro-twitter"><i class="fab fa-twitter"></i></div></a>
-      <a target="_blank" href="https://gist.github.com/mschnetzer"><div class="intro-github"><i class="fab fa-github"></i></div></a>
+      <a target="_blank" href="https://github.com/mschnetzer"><div class="intro-github"><i class="fab fa-github"></i></div></a>
       <a href="mailto:matthias.schnetzer(at)akwien.at"><div class="intro-mail"><i class="far fa-envelope"></i></div></a>
       <br><br>
 
 <!--      <div class="intro-lead-in">{{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }}</div> -->
       {{ if .Site.Params.hero.subtitle }}
       <div class="intro-heading">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</div>{{ end }}
+      {{ if .Site.Params.hero.enable }}
       {{ if ne .Site.Language.Lang "de" }}
       <a href="#publications" class="page-scroll btn btn-xl">{{ with .Site.Params.hero.buttonText }}{{ . }}{{ end }}</a>
       {{ else }}
       <a href="#posts" class="page-scroll btn btn-xl">{{ with .Site.Params.hero.buttonText }}{{ . }}{{ end }}</a>
       {{ end }}
+      {{ end }}
     </div>
+    <div class = "col-sm-8 intro-text infobox">
+      {{ with .Site.Params.hero.introduction }}{{ . | markdownify }}{{ end }}
+    </div>
+  </div>
   </div>
 </header>
