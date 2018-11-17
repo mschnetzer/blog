@@ -54,11 +54,15 @@ disableKinds = ["taxonomy", "taxonomyTerm","section"]
     # To change the background image of the hero, replace 'header-bg.jpg' in the 'static/img' folder.
     # title = "political &middot; economist"
     # subtitle = "posts & papers"
+    enable = false
     buttonText = "Weiterlesen"
+    introduction = "Ich bin Ökonom in der Abteilung Wirtschaftswissenschaften und Statistik der Arbeiterkammer Wien sowie Lektor am Institut für Markoökonomie der Wirtschaftsuniversität Wien. <br> <br> Meine Forschungsschwerpunkte sind Einkommens- und Vermögensverteilung und soziale Mobilität. Ich arbeite hauptsächlich mit der Statistiksoftware *R* und veröffentliche meine Code-Schnipsel unter https://gist.github.com/mschnetzer."
 
   [languages.en.hero]
     # subtitle = "posts & papers"
+    enable = false
     buttonText = "Read more"
+    introduction = "Hello! I am Matthias Schnetzer."
 
 ##################
 # Lehre section
@@ -237,11 +241,11 @@ disableKinds = ["taxonomy", "taxonomyTerm","section"]
 # Footer section
   [languages.de.footer]
     enable = true
-    copyright = "&nbsp;&middot; erstellt mit [Hugo](http://gohugo.io) &middot; Titelfoto von [Phirue](http://philippruemmele.com)"
+    copyright = "&nbsp;&middot; erstellt mit [Hugo](http://gohugo.io) und [Agency Template](https://github.com/digitalcraftsman/hugo-agency-theme)."
 
   [languages.en.footer]
     enable = true
-    copyright = "&nbsp;&middot; created with [Hugo](http://gohugo.io) &middot; Image by [Phirue](http://philippruemmele.com)"
+    copyright = "&nbsp;&middot; created with [Hugo](http://gohugo.io) and [Agency Template](https://github.com/digitalcraftsman/hugo-agency-theme)"
 
     # [[params.footer.social]]
     #  icon = "fa-twitter"
