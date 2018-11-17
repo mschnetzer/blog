@@ -11,9 +11,9 @@
     {{ .Title }}
   </div>
   <div class="artcl-info">
-    {{ if .Params.origlink }} <i class="fa fa-pencil"></i> <a target="_blank" href="{{ .Params.origlink }}">Originalbeitrag</a> <span style="display:inline-block; width: 20px"></span> {{ end }}
-    <i class="fa fa-calendar"></i> {{ .Date.Format "2.1.2006" }} <span style="display:inline-block; width: 20px"></span>
-    <i class="fa fa-clock-o"></i> {{ .ReadingTime }} Minuten Lesezeit
+    {{ if .Params.origlink }} <i class="fas fa-pencil-alt"></i> <a target="_blank" href="{{ .Params.origlink }}">Originalbeitrag</a> <span style="display:inline-block; width: 20px"></span> {{ end }}
+    <i class="far fa-calendar-alt"></i> {{ .Date.Format "2.1.2006" }} <span style="display:inline-block; width: 20px"></span>
+    <i class="far fa-clock"></i> {{ .ReadingTime }} Minuten Lesezeit
   </div>
 </div>
 <div class="blogcontent">
