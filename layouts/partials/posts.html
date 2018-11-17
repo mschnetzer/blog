@@ -10,7 +10,7 @@
   <div class="row text-block">
         {{ $paginator := .Paginate (where .Pages "Section" "blog") 3 }}
         {{ range $paginator.Pages }}
-        <div class="col-lg-4 col-md-3 col-sm-2">
+        <div class="col-md-4">
             <div class="text-muted">
                 <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
                 <div style="text-align:justify;padding:9px">{{ .Summary }}</div>
@@ -23,7 +23,7 @@
     <ul>
     <div class="posts-more">{{ with .Site.Params.posts.morepost }}{{ . }}{{ end }}</div>
     {{ if gt (len (where .Pages "Section" "blog")) 3 }}
-    {{ range (after 3 .Pages) }}{{ if eq .Type "blog" }} <li> <a href="{{ .Permalink }}">{{ .Title }}</a> </li> {{ end }}{{ end }}{{ end }}
+    {{ range (after 4 .Pages) (where .Pages "Section" "blog") }}<li> <a href="{{ .Permalink }}">{{ .Title }}</a> </li> {{ end }}{{ end }}
   </ul>
 </div>
 </div>
