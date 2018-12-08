@@ -56,13 +56,13 @@ disableKinds = ["taxonomy", "taxonomyTerm","section"]
     # subtitle = "posts & papers"
     enable = false
     buttonText = "Weiterlesen"
-    introduction = "Ich bin Ökonom in der Abteilung Wirtschaftswissenschaften und Statistik der Arbeiterkammer Wien sowie Lektor am Institut für Markoökonomie der Wirtschaftsuniversität Wien. <br> <br> Meine Forschungsschwerpunkte sind Einkommens- und Vermögensverteilung und soziale Mobilität. Ich arbeite hauptsächlich mit der Statistiksoftware *R* und veröffentliche meine Code-Schnipsel unter https://gist.github.com/mschnetzer."
+    introduction = "Ich bin Ökonom in der Abteilung Wirtschaftswissenschaften und Statistik der Arbeiterkammer Wien sowie Lektor am Institut für Markoökonomie der Wirtschaftsuniversität Wien. <br> <br> Meine Forschungsschwerpunkte sind Einkommens- und Vermögensverteilung und soziale Mobilität. Ich arbeite hauptsächlich mit der Statistiksoftware *R* und stelle meine Code-Schnipsel unter https://gist.github.com/mschnetzer bereit."
 
   [languages.en.hero]
     # subtitle = "posts & papers"
     enable = false
     buttonText = "Read more"
-    introduction = "I am an economist at the Department of Economics of the Austrian Federal Chamber of Labour and lecturer at the Institute for Macroeconomics of the Vienna University of Economics and Business. <br> <br> My research mainly involves the distribution of income and wealth, and also social mobility. I am working with the statistical software *R* and make my code snippets available at https://gist.github.com/mschnetzer."
+    introduction = "I'm an economist at the Department of Economics of the Austrian Federal Chamber of Labour and lecturer at the Institute for Macroeconomics of the Vienna University of Economics and Business. <br> <br> My research mainly involves the distribution of income and wealth, and also social mobility. I am working with the statistical software *R* and make my code snippets available at https://gist.github.com/mschnetzer."
 
 ##################
 # Lehre section
