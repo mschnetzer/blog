@@ -5,14 +5,14 @@ date = "2018-11-15"
 
 Please submit your short application [via mail](mailto:mschnetz@wu.ac.at) with reference to the key.
 
-**[MA1]** *Regional Kuznets Curves*  
+**[MA1]** *Regional Kuznets Curves* ***(taken)***  
 Investigation of Kuznets relationship between economic development and income inequality across Austrian municipalities, similar to [a tweet](https://twitter.com/brankomilan/status/344504611253653504?lang=de) by Branko Milanovic.
 
 **[MA2]** *Spatial inequality in Vienna* ***(taken)***  
 Spatial evaluation of small-scale social inequalities in Vienna, similar to [social monitoring in Zurich](https://www.stadt-zuerich.ch/prd/de/index/stadtentwicklung/gesellschaft-und-raum/entwicklung-wohnstadt-2/sozialraummonitoring/Sozialraummonitoring_2017.html).
 
 **[MA3]** *National Rich List Database*  
-Collect national rich lists from Eurozone countries and create API for public use. This includes searching lists, correspondence with publishers, legal clarification, setting up a database and creating an API.  
+Collect national rich lists from Eurozone countries and create API for public use. This includes searching lists, correspondence with publishers, legal clarification, setting up a database and creating an API. The thesis may then comprise Pareto estimations based on the rich lists.
 
 **[MA4]** *Social and cultural capital in Austria*  
  Evaluation of the [EU-SILC 2015](http://www.statistik.at/web_de/frageboegen/private_haushalte/eu_silc/index.html) Ad-hoc module on social and cultural participation by socio-demographic characteristics.

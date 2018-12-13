@@ -158,16 +158,16 @@ disableKinds = ["taxonomy", "taxonomyTerm","section"]
     endpointlink = "/cv_schnetzer.pdf"
 
     [[languages.de.about.events]]
-      img = "ak.jpg"
-      date = "seit 2013"
-      title = "Ökonom, Arbeiterkammer Wien"
-      description = "Abteilung Wirtschaftswissenschaften und Statistik, Referent für Verteilungsfragen"
-
-    [[languages.de.about.events]]
       img = "wu.png"
       date = "seit 2010"
       title = "Lektor, Wirtschaftsuniversität Wien"
       description = "Institut für Makroökonomie, Lehrveranstaltungen zu Wirtschaftspolitik und politischer Ökonomie"
+
+    [[languages.de.about.events]]
+      img = "ak.jpg"
+      date = "seit 2013"
+      title = "Ökonom, Arbeiterkammer Wien"
+      description = "Abteilung Wirtschaftswissenschaften und Statistik, Referent für Verteilungsfragen"
 
     [[languages.de.about.events]]
       img = "bmask.jpg"
@@ -202,16 +202,16 @@ disableKinds = ["taxonomy", "taxonomyTerm","section"]
       endpointlink = "/cv_schnetzer_en.pdf"
 
       [[languages.en.about.events]]
-        img = "ak.jpg"
-        date = "since 2013"
-        title = "Economist, Austrian Federal Chamber of Labor"
-        description = "Department of Economics and Statistics"
-
-      [[languages.en.about.events]]
         img = "wu.png"
         date = "since 2010"
         title = "Lecturer, Vienna University of Economics and Business"
         description = "Department of Economics, Institute for Macroeconomics"
+
+      [[languages.en.about.events]]
+        img = "ak.jpg"
+        date = "since 2013"
+        title = "Economist, Austrian Federal Chamber of Labor"
+        description = "Department of Economics and Statistics"
 
       [[languages.en.about.events]]
         img = "bmask.jpg"
