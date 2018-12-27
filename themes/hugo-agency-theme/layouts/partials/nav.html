@@ -59,6 +59,12 @@
           </li>
         {{ end }}
 
+        {{ if .Site.Params.carousel.enable }}
+          <li>
+            <a class="page-scroll" href="{{ .Site.BaseURL }}#infograph">{{ with .Site.Params.navigation.infograph }}{{ . }}{{ end }}</a>
+          </li>
+        {{ end }}
+
         {{ if .Site.Params.team.enable }}
           <li>
             <a class="page-scroll" href="{{ .Site.BaseURL }}#team">{{ with .Site.Params.navigation.team }}{{ . }}{{ end }}</a>

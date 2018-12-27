@@ -35,6 +35,10 @@
       {{ partial "contact.html" . }}
     {{ end }}
 
+    {{ if .Site.Params.carousel.enable }}
+      {{ partial "carousel.html" . }}
+    {{ end }}
+
     {{ if .Site.Params.footer.enable }}
       {{ partial "footer.html" . }}
     {{ end }}

@@ -40,6 +40,7 @@ disableKinds = ["taxonomy", "taxonomyTerm","section"]
     portfolio = "Publikationen"
     about = "CV"
     services = "Lehre"
+    infograph = "Infografiken"
 
   [languages.en.navigation]
     brand = "matthias schnetzer"
@@ -47,6 +48,7 @@ disableKinds = ["taxonomy", "taxonomyTerm","section"]
     portfolio = "Publications"
     about = "CV"
     services = "Teaching"
+    infograph = "Infographics"
 
 ##############
 # Header section
@@ -146,6 +148,17 @@ disableKinds = ["taxonomy", "taxonomyTerm","section"]
       downlad = "Download"
       category = "Category"
       buttonText = "Close publication"
+
+###############
+# Twitter carousel section
+
+  [languages.de.carousel]
+    enable = true
+    title = "Infografiken"
+
+  [languages.en.carousel]
+    enable = true
+    title = "Infographics"
 
 ###############
 # CV section
