@@ -153,11 +153,11 @@ disableKinds = ["taxonomy", "taxonomyTerm","section"]
 # Twitter carousel section
 
   [languages.de.carousel]
-    enable = true
+    enable = false
     title = "Infografiken"
 
   [languages.en.carousel]
-    enable = true
+    enable = false
     title = "Infographics"
 
 ###############
