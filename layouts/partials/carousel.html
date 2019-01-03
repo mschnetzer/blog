@@ -13,7 +13,7 @@
               {{ range sort (readDir $imgfolder) }}
                 <div class="item">
                   <a target="_blank" rel="noopener noreferrer" href="{{ $url | absURL }}{{ .Name | relURL }}">
-                    <img class="img-responsive" src="{{ $url | absURL }}{{ .Name | relURL }}" alt="">
+                    <img class="img-responsive lazyOwl" src="{{ $url | absURL }}{{ .Name | relURL }}" alt="">
                  </a>
                 </div>
                 {{ end }}
