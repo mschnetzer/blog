@@ -8,7 +8,7 @@ Bitte schicken Sie eine kurze Bewerbung unter Angabe des Kürzels [via mail](mai
 **[MA1]** *Regionale Kuznets-Kurven* ***(vergeben)***  
 Untersuchung des Kuznets-Zusammenhangs zwischen ökonomischer Entwicklung und Einkommensungleichheit in österreichischen Gemeinden, ähnlich wie [ein Tweet](https://twitter.com/brankomilan/status/344504611253653504?lang=de) von Branko Milanovic.
 
-**[MA2]** *Räumliche Ungleichheit in Wien* ***(vergeben)***  
+**[MA2]** *Räumliche Ungleichheit in Wien*  
 Kleinräumige Untersuchung sozialer Ungleichheiten in Wien mit räumlicher Ökonometrie, ähnlich zum [Sozialmonitoring in Zürich](https://www.stadt-zuerich.ch/prd/de/index/stadtentwicklung/gesellschaft-und-raum/entwicklung-wohnstadt-2/sozialraummonitoring/Sozialraummonitoring_2017.html).
 
 **[MA3]** *Datenbank für nationale Reichenlisten*  
@@ -23,5 +23,5 @@ Empirische Untersuchung kleinräumiger Einkommensungleichheit mit einem neuen Na
 **[MA6]** *Implikationen von Öko-Steuern auf Einkommensverteilung* ***(vergeben)***  
 Untersuchung der Verteilungseffekte von ausgewählten Umweltsteuern in Österreich, ähnlich wie [dieser Artikel](http://wug.akwien.at/WUG_Archiv/2011_37_1/2011_37_1_0069.pdf).
 
-**[MA7]** *Räumliche Untersuchung des Gender Pay Gap* ***(vergeben)***  
+**[MA7]** *Räumliche Untersuchung des Gender Pay Gap*  
 Der geschlechtsspezifische Lohnunterschied [variiert signifikant](https://twitter.com/matschnetzer/status/1053644752934055936) zwischen österreichischen Regionen. Was sind die Gründe für diese räumlichen Unterschiede?
