@@ -11,13 +11,13 @@ Investigation of Kuznets relationship between economic development and income in
 **[MA2]** *Spatial inequality in Vienna* ***(taken)***  
 Spatial evaluation of small-scale social inequalities in Vienna, similar to [social monitoring in Zurich](https://www.stadt-zuerich.ch/prd/de/index/stadtentwicklung/gesellschaft-und-raum/entwicklung-wohnstadt-2/sozialraummonitoring/Sozialraummonitoring_2017.html).
 
-**[MA3]** *National Rich List Database*  
+**[MA3]** *National Rich List Database* ***(taken)***  
 Collect national rich lists from Eurozone countries and create API for public use. This includes searching lists, correspondence with publishers, legal clarification, setting up a database and creating an API. The thesis may then comprise Pareto estimations based on the rich lists.
 
 **[MA4]** *Social and cultural capital in Austria*  
  Evaluation of the [EU-SILC 2015](http://www.statistik.at/web_de/frageboegen/private_haushalte/eu_silc/index.html) Ad-hoc module on social and cultural participation by socio-demographic characteristics.
 
-**[MA5]** *Neighbourhood inequality in Austria*  
+**[MA5]** *Neighbourhood inequality in Austria* ***(taken)***  
 Empirical assessment of small-scale income inequality with a new neighborhood inequality index as constructed in [this new working paper](http://www.ecineq.org/milano/WP/ECINEQ2018-477.pdf).
 
 **[MA6]** *Distributional implications of green taxes* ***(taken)***  
