@@ -14,7 +14,7 @@ Spatial evaluation of small-scale social inequalities in Vienna, similar to [soc
 **[MA3]** *National Rich List Database* ***(taken)***  
 Collect national rich lists from Eurozone countries and create API for public use. This includes searching lists, correspondence with publishers, legal clarification, setting up a database and creating an API. The thesis may then comprise Pareto estimations based on the rich lists.
 
-**[MA4]** *Social and cultural capital in Austria*  
+**[MA4]** *Social and cultural capital in Austria* ***(taken)***  
  Evaluation of the [EU-SILC 2015](http://www.statistik.at/web_de/frageboegen/private_haushalte/eu_silc/index.html) Ad-hoc module on social and cultural participation by socio-demographic characteristics.
 
 **[MA5]** *Neighbourhood inequality in Austria* ***(taken)***  
@@ -23,5 +23,5 @@ Empirical assessment of small-scale income inequality with a new neighborhood in
 **[MA6]** *Distributional implications of green taxes* ***(taken)***  
 Analysis of the distributional effect of selected environmental taxes in Austria, similar to [this article](http://wug.akwien.at/WUG_Archiv/2011_37_1/2011_37_1_0069.pdf).
 
-**[MA7]** *Spatial analysis of the Gender Pay Gap*
+**[MA7]** *Spatial analysis of the Gender Pay Gap* ***(taken)***  
 The Gender Pay Gap [differs significantly](https://twitter.com/matschnetzer/status/1053644752934055936) across Austrian regions. What are the reasons behind the regional disparities?
