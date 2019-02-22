@@ -178,7 +178,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #000;
+    background-color: #f7f7f7;
 }
 
 .navbar-default .navbar-brand {
@@ -282,7 +282,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink {
-        background-color: #000;
+        background-color: #f7f7f7;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -454,10 +454,9 @@ CSS for Blog posts
 
 .artcl-header {
     text-align: center;
-    color: #fed136;
     padding: 50px;
     background-attachment: scroll;
-    background-color: #000;
+    background-color: #f7f7f7;
     background-position: center center;
     background-repeat: none;
 }
@@ -479,10 +478,9 @@ CSS for Blog posts
 @media(min-width:768px) {
     .artcl-header {
         text-align: center;
-        color: #fed136;
         padding-top: 100px;
         background-attachment: scroll;
-        background-color: #000;
+        background-color: #f7f7f7;
         background-position: center center;
         background-repeat: none;
     }
