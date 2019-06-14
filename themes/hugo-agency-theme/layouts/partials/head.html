@@ -7,7 +7,7 @@
 
   {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
 
-  {{ .Hugo.Generator }}
+  {{ hugo.Generator }}
   <title>{{ .Title }}</title>
   {{ "<!-- Stylesheets -->" | safeHTML }}
   <link href="{{ "css/bootstrap-v3.3.7/bootstrap.min.css" | absURL }}" rel="stylesheet">
