@@ -1,5 +1,5 @@
 {{ "<!-- About Section -->" | safeHTML }}
-<section id="cv">
+<section id="cv" class="bg-light-gray">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -33,7 +33,7 @@
           <li class="timeline-inverted">
             <a href="{{ .Site.Params.about.endpointlink | absURL }}">
             <div class="timeline-image">
-              <h4>{{ with .Site.Params.about.endpoint }}{{ . | markdownify }}{{ end }}</h4>
+              <h4>{{ with .Site.Params.about.endpoint }}{{ . | safeHTML }}{{ end }}</h4>
             </div>
           </a>
           </li>

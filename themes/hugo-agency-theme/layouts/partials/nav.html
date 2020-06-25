@@ -35,12 +35,6 @@
           </li>
         {{ end }}
 
-        {{ if .Site.Params.posts.enable }}
-          <li>
-            <a class="page-scroll" href="{{ .Site.BaseURL }}#posts">{{ with .Site.Params.navigation.posts }}{{ . }}{{ end }}</a>
-          </li>
-        {{ end }}
-
         {{ if .Site.Params.portfolio.enable }}
           <li>
             <a class="page-scroll" href="{{ .Site.BaseURL }}#publications">{{ with .Site.Params.navigation.portfolio }}{{ . }}{{ end }}</a>
@@ -51,6 +45,12 @@
           <li>
             <a class="page-scroll" href="{{ .Site.BaseURL }}#cv">{{ with .Site.Params.navigation.about }}{{ . }}{{ end }}</a>
           </li>
+        {{ end }}
+
+        {{ if .Site.Params.posts.enable }}
+        <li>
+          <a class="page-scroll" href="{{ .Site.BaseURL }}#posts">{{ with .Site.Params.navigation.posts }}{{ . }}{{ end }}</a>
+        </li>
         {{ end }}
 
         {{ if .Site.Params.services.enable }}

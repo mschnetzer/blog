@@ -24,7 +24,7 @@
     <ul>
     <div class="posts-more">{{ with .Site.Params.posts.morepost }}{{ . }}{{ end }}</div>
     {{ if gt (len (where .Site.Pages "Section" "blog")) 3 }}
-    {{ range (after 4 .Site.Pages) (where .Site.Pages "Section" "blog") }}<li> <a href="{{ .Permalink }}">{{ .Title }}</a> </li> {{ end }}{{ end }}
+    {{ range after 3 (where .Site.Pages "Section" "blog") }}<li> <a href="{{ .Permalink }}">{{ .Title }}</a> </li> {{ end }}{{ end }}
   </ul>
 </div>
 </div>

@@ -58,13 +58,13 @@ disableKinds = ["taxonomy", "taxonomyTerm","section"]
     # subtitle = "posts & papers"
     enable = false
     buttonText = "Weiterlesen"
-    introduction = "Ich bin Ökonom in der Abteilung Wirtschaftswissenschaften und Statistik der Arbeiterkammer Wien sowie Lektor am Institut für Markoökonomie der Wirtschaftsuniversität Wien. <br> <br> Meine Forschungsschwerpunkte sind Einkommens- und Vermögensverteilung und soziale Mobilität. Ich arbeite hauptsächlich mit der Statistiksoftware *R* und stelle meine Code-Schnipsel unter https://gist.github.com/mschnetzer bereit."
+    introduction = "Ich bin Ökonom in der wirtschaftswissenschaftlichen Abteilung der Arbeiterkammer Wien sowie Lektor am Institut für Markoökonomie der Wirtschaftsuniversität Wien. Ich bin Redaktionsmitglied der Zeitschrift *Wirtschaft und Gesellschaft*, Mitorganisator der *Young Economists Conference* und blogge regelmäßig bei *Arbeit und Wirtschaft*. Meine Forschungsschwerpunkte sind Einkommens- und Vermögensverteilung sowie soziale Mobilität. "
 
   [languages.en.hero]
     # subtitle = "posts & papers"
     enable = false
     buttonText = "Read more"
-    introduction = "I'm an economist at the Department of Economics of the Austrian Federal Chamber of Labour and lecturer at the Institute for Macroeconomics of the Vienna University of Economics and Business. <br> <br> My research mainly involves the distribution of income and wealth, and also social mobility. I am working with the statistical software *R* and make my code snippets available at https://gist.github.com/mschnetzer."
+    introduction = "I am an economist at the Department of Economics of the Austrian Federal Chamber of Labour and lecturer at the Institute for Macroeconomics of the Vienna University of Economics and Business. I'm in the editorial board of the journal *Wirtschaft und Gesellschaft*, co-organizer of the *Young Economists Conference*, and blogger at *Arbeit und Wirtschaft*. My main research areas are the distribution of income and wealth, and social mobility."
 
 ##################
 # Lehre section
@@ -130,7 +130,7 @@ disableKinds = ["taxonomy", "taxonomyTerm","section"]
   [languages.de.portfolio]
     enable = true
     # All projects defined in their own files. You can find example projects at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory at the root of this Hugo site.
-    title = "Ausgewählte Publikationen"
+    title = "Publikationen in Fachzeitschriften"
     # subtitle = "A selection of my work"
 
     [languages.de.portfolio.modal]
@@ -141,7 +141,7 @@ disableKinds = ["taxonomy", "taxonomyTerm","section"]
 
   [languages.en.portfolio]
     enable=true
-    title= "Selected publications"
+    title= "Publications"
 
     [languages.en.portfolio.modal]
       togetherwith = "co-authored by"
