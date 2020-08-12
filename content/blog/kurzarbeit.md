@@ -41,7 +41,7 @@ Table 1 illustrates two typical cases for the Austrian short-time work model. Th
 
 #### Table 1: Two examples of short-time work compensation
 <center><img src="/img/blog/stwmodel.png", style="width: 700px"></center>
-##### Sources: AMS STW calculator; gross-net calculator, unemployment benefits calculator, own calculations. Notes: Lost hours per month = lost hours per week multiplied by 4.33. Rounding differences may occur. Because of the different number of days per month, unemployment benefits differ each month.
+Sources: AMS STW calculator; gross-net calculator, unemployment benefits calculator, own calculations. Notes: Lost hours per month = lost hours per week multiplied by 4.33. Rounding differences may occur. Because of the different number of days per month, unemployment benefits differ each month.
 
 ### Conclusion
 

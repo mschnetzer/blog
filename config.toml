@@ -8,6 +8,9 @@ canonifyURLs = "true"
 PaginatePath = "blog"
 disableKinds = ["taxonomy", "taxonomyTerm","section"]
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [languages]
 [languages.de]
   languageName = "Deutsch"
