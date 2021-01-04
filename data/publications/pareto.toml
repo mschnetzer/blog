@@ -1,0 +1,10 @@
+modalID= 14
+title= "Wealth surveys and rich lists"
+papertitle= "On Top of the Top - Adjusting wealth distributions using national rich lists"
+coauth= "Franziska Disslbacher, Michael Ertl, Emanuel List und Patrick Mokre"
+date= "2020"
+img= "pareto.jpg"
+preview= "pareto.jpg"
+journal= "INEQ Working Paper 20"
+doi= "https://epub.wu.ac.at/7908/"
+description= "Poor coverage of the top in wealth surveys conceals the extent of wealth inequality. The literature mitigates this shortcoming by enriching survey data with rich lists and estimating the top tail with a Pareto distribution. However, recent studies rely on ad-hoc assumptions for some of the required parameters. We suggest a unified regression ap- proach to estimate all parameters of a Pareto distribution jointly and extend our analysis with a more flexible three-parameter Generalized Pareto estimation. We introduce a new database of national rich lists (ERLDB) as an alternative to commonly used global rich lists to combine with survey data from the Household Finance and Consumption Survey (HFCS 2017). Our findings for 14 European countries show that wealth is more concen- trated than surveys suggest, with almost doubling Top 1% shares in the most extreme cases. In contrast, countries with successful oversampling strategies tend to experience only minor changes in inequality metrics."
